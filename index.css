@@ -3,13 +3,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     zoom: 100%;
 }
+
 .qm {
     margin-top: 0px;
-    margin-left: 70px;
+    margin-left: 20%;
 }
+
 .q {
     font-size: xxx-large;
 }
+
 #v {
     color: grey;
     font-weight: 0px;
@@ -19,11 +22,14 @@ body {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    height: 300px;
-    width: 100%;
+    justify-content: space-around;
+    height: 350px;
+    width: 60%;
     position: relative;
     margin-top: 40px;
+    overflow: auto;
+    margin-left: 20%;
+    /* border: 5px solid black; */
 }
 
 .trip {
@@ -37,6 +43,8 @@ body {
     height: 280px;
     width: 185px;
     border-radius: 10px;
+    margin-right: 5%;
+    margin-bottom: 5%;
     box-shadow: 6px 10px 10px #dadada;
 }
 
@@ -60,11 +68,19 @@ body {
     top: 120px;
 }
 
+.ch1 {
+    color: rgb(56, 53, 53);
+    zoom: 120%;
+    position: absolute;
+    top: 400px;
+    left: 10px;
+}
+
 #b {
     color: gray;
     font-size: xx-large;
     float: right;
-    margin-right: 85px;
+    margin-right: 275px;
     cursor: pointer;
 }
 .trip1 {
@@ -182,7 +198,7 @@ body {
     body {
         margin: 0px;
         zoom: 100%;
-        font-family;
+        font-family: emoji;
     }
     .qm {
         margin-top: 20px;
@@ -207,16 +223,20 @@ body {
         margin-top: -20px;
         align-items: center;
         padding-left: 5px;
+        overflow: unset;
+        margin-left: -1px;
     }
     .pt,
     .ch,
     .hrr,
     .addli,
     .through,
-    .bnk {
+    .bnk,
+    .ch1,
+    .ch2 {
         display: none;
     }
-
+    
     .to {
         margin-left: 60px;
         margin-top: -190px;
@@ -243,70 +263,6 @@ body {
     .list {
         margin-top: -10%;
         margin-left: -30%;
-        width: 250px;
-    }
-}
-
-@media screen and (min-width:768px) and (max-width:1024px) {
-    .qm {
-        margin-top: 20px;
-        margin-left: 10px;
-        zoom: 100%;
-    }
-    #b {
-        float: right;
-        margin-top: 11px;
-        zoom: 110%;
-        margin-right: 15px;
-    }
-    .bo {
-        height: 50px;
-        width: 100%;
-        margin: 18px;
-        margin-left: 5px;
-        padding-bottom: 17px;
-    }
-    .flex {
-        width: 100%;
-        margin-top: -20px;
-        align-items: center;
-        padding-left: 5px;
-    }
-    .pt,
-    .ch,
-    .hrr,
-    .addli,
-    .through,
-    .bnk {
-        display: none;
-    }
-
-    .to {
-        margin-left: 176px;
-        margin-top: -190px;
-    }
-    .bac {
-        margin-top: -69%;
-        margin-left: -130px;
-        zoom: 120%;
-    }
-    .bo1 {
-        width: 39%;
-        margin-left: 194px;
-    }
-    .ch1 {
-        margin-left: 30px;
-    }
-    .through1 {
-        text-align: left;
-        margin-left: 30px;
-    }
-    .trip1 {
-        margin-left: -30px;
-    }
-    .list {
-        margin-top: -27%;
-        margin-left: -14%;
         width: 250px;
     }
 }
